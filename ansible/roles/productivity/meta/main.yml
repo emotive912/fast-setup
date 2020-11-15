@@ -1,0 +1,27 @@
+---
+dependencies : 
+ - role : geerlingguy.mas
+   vars:
+	mas_installed_apps:
+	- id: 1278508951
+	name: Trello
+	- id: 747648890
+	name: Telegram 
+	- id: 585829637
+	name: Trello
+	- id: 425424353
+	name: The Unarchiver
+	- id: 1482454543
+	name: Twitter
+	- id: 973134470
+	name: Be Focused 
+	- id: 1039633667
+	name: Irvue
+	- id: 803453959
+	name: Slack
+	- id: 836505650
+	name: Battery Monitor
+	- id: 967004861
+	name: HP Easy Scan
+	-id: 733144595
+	name: Djvu Reader    

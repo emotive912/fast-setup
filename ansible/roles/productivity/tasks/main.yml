@@ -1,0 +1,17 @@
+---
+  - name: Ensure all my apps are installed 
+    homebrew_cask:
+	name:
+	- google-chrome
+	- notion
+	- transmission
+	- jetbrains-toolbox
+  - name: reduce macos noise 
+    osx_defaults:
+	key: "{{ item.key }}"
+	domain: "{{ item.domain }}"
+	value: "{{ item.value }}"
+    loop:
+	- domain: com.apple.dock
+	  key: no-bouncing
+	  value: TRUE
